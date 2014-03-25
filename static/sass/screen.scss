@@ -1,0 +1,36 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700);
+
+body {
+	font-family: "Source Sans Pro", sans-serif, helvetica, arial;
+	color: #999;
+	line-height: 1.4em;
+	background-color: #c4c8b7;
+	background-image: url(/_static/giftly/giftly.png);
+}
+
+#container {
+	margin: 3em auto 0 auto;
+	width: 500px;
+	border: 2px dotted #c8beb7;
+	padding: 1em;
+	background-color: white;
+}
+
+#logo {
+	img {
+		margin-bottom: 1em;
+	}
+	margin:0 auto;
+	// display: inline-block;
+	width: 220px;
+}
+#message {
+	text-align:center;
+}
